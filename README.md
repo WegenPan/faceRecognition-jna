@@ -5,8 +5,10 @@
 2. 将ncnn生成的include和lib文件夹复制到项目根路径
 3. 修改cmakelist.txt文件，保证ncnn.lib路径正确
 
+``` 
 > cd <faceRecognition-jna-root-dir>
 > mkdir build
 > cd build
 > cmake -G"NMake Makefiles" -DCMAKE_BUILD_TYPE=Release ..
 > nmake
+```
